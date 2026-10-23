@@ -1,0 +1,5 @@
+# Robots.txt for Willowbrook Care Home
+User-agent: *
+Allow: /
+
+Sitemap: https://willowbrookcarehome.com/sitemap.xml

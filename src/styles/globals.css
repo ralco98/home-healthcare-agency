@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 98%;
+    --surface: 100 22% 96%;
+    --surface-raised: 90 20% 92%;
+    --border: 100 13% 85%;
+    --foreground: 145 20% 13%;
+    --muted-foreground: 135 8% 43%;
+    --subtle: 100 7% 65%;
+    --primary: 145 34% 31%;
+    --primary-dark: 145 39% 23%;
+    --primary-light: 115 25% 92%;
+    --primary-muted: 110 20% 77%;
+    --dark-green: 148 25% 13%;
+    --dark-surface: 148 22% 17%;
+    --dark-border: 145 15% 26%;
+    --cream: 40 42% 94%;
+    --white: 0 0% 100%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    line-height: 1.75;
+    font-size: 16px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+    color: hsl(var(--foreground));
+    letter-spacing: -0.025em;
+  }
+
+  h1 {
+    letter-spacing: -0.04em;
+    line-height: 1.08;
+  }
+}
+
+/* Custom scrollbar matching forest & sage tones */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary-muted));
+}
+
+/* Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
