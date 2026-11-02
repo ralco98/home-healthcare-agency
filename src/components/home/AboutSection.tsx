@@ -68,7 +68,7 @@ export const AboutSection: React.FC = () => {
               <SectionHeading
                 eyebrow="OUR STORY"
                 title="Good care starts with feeling at home."
-                description="At Willowbrook Care Home, our aim is to create an environment where every resident is recognised as an individual. We want people to feel welcomed, listened to, and supported in ways that respect their preferences and independence."
+                description={`At ${siteConfig.name}, our aim is to create an environment where every resident is recognised as an individual. We want people to feel welcomed, listened to, and supported in ways that respect their preferences and independence.`}
                 align="left"
               />
             </Reveal>

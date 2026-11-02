@@ -21,6 +21,7 @@ export const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       { path: "care-services", element: <CareServicesPage /> },
       { path: "accommodation", element: <AccommodationPage /> },
+      { path: "life-here", element: <LifeAtHomePage /> },
       { path: "life-at-willowbrook", element: <LifeAtHomePage /> },
       { path: "about", element: <AboutPage /> },
       { path: "meet-the-team", element: <TeamPage /> },

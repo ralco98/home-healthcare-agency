@@ -9,7 +9,7 @@ import { Utensils, Calendar, Heart, Check, Coffee, Sun } from "lucide-react";
 
 export const LifeAtHomePage: React.FC = () => {
   useEffect(() => {
-    document.title = `Life at Willowbrook | Activities, Dining & Community`;
+    document.title = `Life Here | Activities, Dining & Community | ${siteConfig.name}`;
     window.scrollTo(0, 0);
   }, []);
 
@@ -19,7 +19,7 @@ export const LifeAtHomePage: React.FC = () => {
         eyebrow="MORE THAN A PLACE TO STAY"
         title="A vibrant life filled with warmth, flavour, and friendship."
         description="Daily life at our home is about autonomy, personal choices, engaging hobbies, and shared celebrations, all supported at a gentle and comfortable pace."
-        breadcrumbs={[{ label: "Life at Willowbrook" }]}
+        breadcrumbs={[{ label: "Life Here" }]}
       />
 
       {/* 4 Pillars of Daily Life */}

@@ -366,7 +366,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ embedded = false
                           className="mt-1 h-4 w-4 rounded border-border text-primary focus:ring-primary"
                         />
                         <span className="text-xs text-muted-foreground leading-normal">
-                          I consent to Willowbrook Care Home storing and processing this enquiry information to respond to my request, in accordance with the{" "}
+                          I consent to {siteConfig.name} storing and processing this enquiry information to respond to my request, in accordance with the{" "}
                           <Link to="/privacy-policy" className="text-primary underline font-medium">
                             Privacy Policy
                           </Link>

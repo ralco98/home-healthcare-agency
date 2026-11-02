@@ -213,7 +213,7 @@ export const CareersPage: React.FC = () => {
                 <div className="text-sm">
                   <p className="font-bold">Application Received</p>
                   <p className="mt-1 text-emerald-800">
-                    Thank you for applying to Willowbrook Care Home. Our management team will review your application and get in touch shortly.
+                    Thank you for applying to {siteConfig.name}. Our management team will review your application and get in touch shortly.
                   </p>
                 </div>
               </div>
@@ -330,7 +330,7 @@ export const CareersPage: React.FC = () => {
                       className="mt-1 h-4 w-4 rounded border-border text-primary focus:ring-primary"
                     />
                     <span className="text-xs text-muted-foreground leading-normal">
-                      I consent to Willowbrook Care Home processing my application details for recruitment purposes in accordance with the{" "}
+                      I consent to {siteConfig.name} processing my application details for recruitment purposes in accordance with the{" "}
                       <Link to="/privacy-policy" className="text-primary underline">
                         Privacy Policy
                       </Link>

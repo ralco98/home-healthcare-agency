@@ -1,6 +1,6 @@
-# Willowbrook Care Home — Residential Care & Senior Living Website
+# Home Health Care Agencies — Residential Care & Senior Living Website
 
-A complete, premium, responsive website built for **Willowbrook Care Home** (incorporating verified business credentials from **Home Health Care Agencies / Fox Chase Wellness Center**, Philadelphia, PA).
+A complete, premium, responsive website built for **Home Health Care Agencies** (incorporating verified business credentials from **Fox Chase Wellness Center**, Philadelphia, PA).
 
 The website communicates trust, warmth, dignity, safety, and a genuine sense of home — presenting an editorial, boutique hospitality feel rather than a cold clinical portal.
 
@@ -18,7 +18,7 @@ The website communicates trust, warmth, dignity, safety, and a genuine sense of 
 1. `/` — **Home**: Complete 15-section editorial homepage with split hero, reassurance strip, care services grid, lifestyle section, accommodation cards, 4-step admission roadmap, role-based team showcase, verified family reviews, values, accessible FAQ accordion, visit banner, contact form, and footer.
 2. `/care-services` — **Care Services**: Deep dive into Residential Care, Dementia Support, Respite Care, Nursing Care Support, Personal Care, and Companionship.
 3. `/accommodation` — **Rooms & Facilities**: Comprehensive guide to private ensuite bedrooms, shared lounges, library, gardens, dining room, and personal belongings policy.
-4. `/life-at-willowbrook` — **Life at Willowbrook**: Meaningful activities, daily rhythms, sample seasonal dining menus, gardens, and community partnerships.
+4. `/life-here` — **Life Here**: Meaningful activities, daily rhythms, sample seasonal dining menus, gardens, and community partnerships.
 5. `/about` — **Our Story & Philosophy**: Non-institutional boutique care approach, 3 core values (Dignity, Compassion, Individuality), and verified organizational credentials.
 6. `/meet-the-team` — **Meet the Team**: Leadership profiles, care leads, head chef, wellbeing coordinator, and staff vetting standards.
 7. `/families` — **For Families**: Visiting hours and guidelines, key worker communication, transition checklist, and comprehensive family FAQs.
@@ -94,7 +94,7 @@ All business identity details, contact numbers, hours, and service options are m
 Before taking the website live in production, please review and update the following placeholder elements with verified client information:
 
 - [ ] **Domain & Hosting URLs**: Update canonical URL in `index.html`, `public/robots.txt`, and `public/sitemap.xml`.
-- [ ] **Contact Email**: Replace `enquiries@willowbrookcarehome.com` with the actual operational admissions inbox.
+- [ ] **Contact Email**: Replace `enquiries@homehealthcareagencies.com` with the actual operational admissions inbox.
 - [ ] **CRM / Backend Form Handlers**: Wire `onSubmit` in `src/components/home/ContactSection.tsx` and `src/pages/CareersPage.tsx` to your backend API or email webhook (e.g. Resend, SendGrid, Formspree, or HubSpot CRM).
 - [ ] **Staff Profiles & Photography**: Replace role-based editorial cards in `src/data/team.ts` with authorised staff photographs, names, and approved biographies.
 - [ ] **Regulatory Registration Number**: If applicable, insert the state or national license number in `src/components/layout/Footer.tsx` and `src/pages/AboutPage.tsx`.
@@ -103,4 +103,4 @@ Before taking the website live in production, please review and update the follo
 ---
 
 ## 📄 License
-Private and proprietary. Designed for Willowbrook Care Home & Fox Chase Wellness Center.
+Private and proprietary. Designed for Home Health Care Agencies & Fox Chase Wellness Center.

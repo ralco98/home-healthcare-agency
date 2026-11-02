@@ -31,7 +31,7 @@ export const HomePage: React.FC = () => {
       {/* SECTION 4 — Our Care Services */}
       <CareServices />
 
-      {/* SECTION 5 — Life at Willowbrook */}
+      {/* SECTION 5 — Life Here */}
       <LifeAtHome />
 
       {/* SECTION 6 — Accommodation and Facilities */}

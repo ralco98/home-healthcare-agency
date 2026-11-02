@@ -38,7 +38,7 @@ export const AboutPage: React.FC = () => {
             {/* Story Text (7 cols) */}
             <div className="lg:col-span-7 space-y-6">
               <span className="text-xs font-mono font-semibold tracking-wider uppercase text-primary-dark">
-                THE WILLOWBROOK PHILOSOPHY
+                OUR CARE PHILOSOPHY
               </span>
 
               <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground tracking-tight">
@@ -46,7 +46,7 @@ export const AboutPage: React.FC = () => {
               </h2>
 
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                At Willowbrook Care Home, our aim is to create an environment where every resident is recognised as an individual. We want people to feel welcomed, listened to, and supported in ways that respect their preferences and independence.
+                At {siteConfig.name}, our aim is to create an environment where every resident is recognised as an individual. We want people to feel welcomed, listened to, and supported in ways that respect their preferences and independence.
               </p>
 
               <p className="text-base text-muted-foreground leading-relaxed">

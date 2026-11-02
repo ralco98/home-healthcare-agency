@@ -43,14 +43,14 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "Willowbrook Care Home",
-  tradingName: "Home Health Care Agencies & Fox Chase Wellness Center",
+  name: "Home Health Care Agencies",
+  tradingName: "Fox Chase Wellness Center",
   tagline: "Exceptional care. A life well lived.",
   description: "A welcoming residential and senior care community providing compassionate care, comfortable accommodation, meaningful daily activities, and genuine peace of mind for residents and families.",
   contact: {
     phone: "+12674489408",
     phoneDisplay: "+1 (267) 448-9408",
-    email: "enquiries@willowbrookcarehome.com",
+    email: "enquiries@homehealthcareagencies.com",
     address: {
       street: "7770 Dungan Rd",
       unit: "Unit 126",
@@ -82,7 +82,7 @@ export const siteConfig: SiteConfig = {
   },
   navigation: [
     { label: "Our Care", href: "/care-services" },
-    { label: "Life Here", href: "/life-at-willowbrook" },
+    { label: "Life Here", href: "/life-here" },
     { label: "Accommodation", href: "/accommodation" },
     { label: "About Us", href: "/about" },
     { label: "Families", href: "/families" },

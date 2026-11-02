@@ -21,7 +21,7 @@ export const Navbar: React.FC = () => {
 
   const navLinks = [
     { label: "Our Care", href: "/care-services" },
-    { label: "Life Here", href: "/life-at-willowbrook" },
+    { label: "Life Here", href: "/life-here" },
     { label: "Accommodation", href: "/accommodation" },
     { label: "About Us", href: "/about" },
     { label: "Families", href: "/families" },
@@ -45,7 +45,7 @@ export const Navbar: React.FC = () => {
               className="flex items-center gap-3 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg py-1"
               aria-label={`${siteConfig.name} - Home`}
             >
-              {/* Elegant Willow / Leaf Icon */}
+              {/* Elegant Leaf & Care Icon */}
               <div className="w-10 h-10 rounded-xl bg-forest-800 text-white flex items-center justify-center shadow-sm group-hover:bg-forest-900 transition-colors">
                 <svg
                   viewBox="0 0 24 24"

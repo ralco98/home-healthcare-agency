@@ -1,5 +1,5 @@
-# Robots.txt for Willowbrook Care Home
+# Robots.txt for Home Health Care Agencies
 User-agent: *
 Allow: /
 
-Sitemap: https://willowbrookcarehome.com/sitemap.xml
+Sitemap: https://homehealthcareagencies.com/sitemap.xml

@@ -2,6 +2,7 @@ import React from "react";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { CTAButton } from "@/components/shared/CTAButton";
 import { Reveal } from "@/components/shared/Reveal";
+import { siteConfig } from "@/data/siteConfig";
 import { Sparkles, Users, Award, Heart } from "lucide-react";
 
 export const CareersCTA: React.FC = () => {
@@ -20,7 +21,7 @@ export const CareersCTA: React.FC = () => {
               <Reveal>
                 <div className="flex items-center gap-2 text-xs font-mono font-semibold tracking-[0.14em] uppercase text-primary-dark">
                   <span className="w-6 h-[2px] rounded-full bg-primary inline-block" aria-hidden="true" />
-                  <span>CAREERS AT WILLOWBROOK</span>
+                  <span>CAREERS AT {siteConfig.name.toUpperCase()}</span>
                 </div>
 
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground tracking-tight">

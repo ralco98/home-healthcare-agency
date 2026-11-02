@@ -27,7 +27,7 @@ export const AccessibilityPage: React.FC = () => {
                 Our Ongoing Accessibility Commitment
               </h2>
               <p className="mt-2 text-muted-foreground">
-                Willowbrook Care Home strives to ensure that its services and digital spaces are accessible to people with disabilities. We believe every person has the right to live with dignity, equality, and independence.
+                {siteConfig.name} strives to ensure that its services and digital spaces are accessible to people with disabilities. We believe every person has the right to live with dignity, equality, and independence.
               </p>
             </div>
 

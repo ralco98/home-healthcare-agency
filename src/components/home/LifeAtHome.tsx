@@ -77,7 +77,7 @@ export const LifeAtHome: React.FC = () => {
 
             {/* CTA */}
             <Reveal delay={0.5} className="pt-2">
-              <CTAButton to="/life-at-willowbrook" variant="secondary" size="lg" icon>
+              <CTAButton to="/life-here" variant="secondary" size="lg" icon>
                 Discover Life Here
               </CTAButton>
             </Reveal>

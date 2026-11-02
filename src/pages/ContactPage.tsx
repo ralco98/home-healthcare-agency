@@ -56,7 +56,7 @@ export const ContactPage: React.FC = () => {
             <div className="lg:col-span-6 rounded-xl overflow-hidden border border-border/80 aspect-[16/10] bg-sage-100 relative">
               {/* Map presentation placeholder or Google Maps frame */}
               <iframe
-                title="Willowbrook Care Home Location Map"
+                title={`${siteConfig.name} Location Map`}
                 src="https://maps.google.com/maps?q=7770+Dungan+Rd+Unit+126,+Philadelphia,+PA+19111&t=&z=14&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
